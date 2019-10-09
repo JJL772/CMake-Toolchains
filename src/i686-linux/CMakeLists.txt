@@ -3,8 +3,6 @@
 #
 # Jeremy Lorelli, Oct. 2019
 #
-set(CMAKE_TOOLCHAIN_FILE ${TOOLCHAINS}/i686-linux-toolchain.cmake)
-
 project(test_i686_linux C CXX ASM)
 
 set(SRCS	test.c
